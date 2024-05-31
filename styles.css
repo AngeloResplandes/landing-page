@@ -57,6 +57,10 @@ nav li a {
   text-transform: uppercase;
 }
 
+nav li a:hover {
+  color: #f921ca;
+}
+
 .logo {
   display: flex;
   justify-content: center;
@@ -77,7 +81,7 @@ nav li a {
 }
 
 .background {
-  background-image: url("background/women_background.jpg");
+  background-image: url("images/women_background.jpg");
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
@@ -116,7 +120,78 @@ nav li a {
   padding: 15px;
   text-transform: uppercase;
   text-decoration: none;
-  background-color: #C82CA6;
+  background-color: #f921ca;
   border-radius: 25px;
   width: 280px;
+}
+
+.image a:hover {
+  color: #fff;
+  background-color: #fd3dd3;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.text_1 {
+  margin: 0;
+  padding: 0;
+  margin-top: 70px;
+}
+
+.text h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.bar {
+  width: 30%;
+  height: 3px;
+  background-color: #f921ca;
+  margin-top: 10px;
+  margin-bottom: 70px;
+}
+
+.text p {
+  font-size: 20px;
+  width: 90%;
+  text-align: justify;
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.text a {
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0;
+  margin: 0
+}
+
+.text a:hover {
+  color: #f921ca;
+}
+
+.image_women {
+  padding: 0;
+  margin: 0;
+}
+
+.image_women img {
+  width: 400px;
+  object-fit: cover;
+}
+
+.text_2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px;
 }
