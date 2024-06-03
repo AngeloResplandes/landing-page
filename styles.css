@@ -228,7 +228,7 @@ nav li a:hover {
 
 .text_topics p {
   text-align: justify;
-  width: 52%;
+  width: 230px;
   margin: 0;
 }
 
@@ -254,4 +254,164 @@ nav li a:hover {
 .men_fitness {
   background-image: url("images/men_background.jpg");
   background-position: center;
+}
+
+.boxes_plans {
+  justify-content: space-evenly;
+}
+
+.men_fitness h1 {
+  margin: 0;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1000px;
+}
+
+.box {
+  background: #ffffff10;
+  backdrop-filter: blur(10px);
+  border: 2px solid #ffffff30;
+  border-radius: 20px;
+  height: 400px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: #fff;
+}
+
+.bar_boxes {
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.box h1 {
+  font-size: 30px;
+  margin: 0;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+#button {
+  width: 200px;
+  cursor: pointer;
+  padding: 3px;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 5px;
+  background-color: #ffffff20;
+  border: 2px solid #fff;
+}
+
+#button:hover {
+  background-color: #ffffff50;
+  color: #f921ca;
+  border: 2px solid #f921ca;
+}
+
+.text_3 {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.text form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login {
+  width: auto;
+  margin-left: 70px;
+}
+
+label {
+  display: block;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+form {
+  margin: 0;
+  padding: 0;
+  width: 290px;
+}
+
+.name,
+.number,
+.email {
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 400px;
+}
+
+#tag_a {
+  font-size: 16px;
+  text-transform: none;
+}
+
+#tag_a:hover {
+  color: #1E90FF;
+  text-decoration: underline;
+}
+
+#button_login {
+  font-size: 20px;
+  color: #fff;
+  border: 0;
+  padding: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #f921ca;
+  border-radius: 25px;
+  width: 280px;
+  cursor: pointer;
+}
+
+#button_login:hover {
+  background-color: #fd3dd3;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1B1F23;
+}
+
+footer .text_footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer .text_footer img,
+#link_github {
+  object-fit: cover;
+  width: 65px;
+  height: 65px;
+}
+
+footer p {
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  padding: 0;
+  margin-top: 5px;
+  margin-bottom: 20px;
 }
