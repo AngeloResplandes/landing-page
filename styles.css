@@ -201,7 +201,7 @@ nav li a:hover {
 .women_fitness {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 .topics {
@@ -414,4 +414,80 @@ footer p {
   padding: 0;
   margin-top: 5px;
   margin-bottom: 20px;
+}
+
+@media (max-width: 1100px) {
+  .women_fitness {
+    flex-direction: column;
+  }
+
+  .image_women_fitness img {
+    width: 450px;
+  }
+
+  .topics {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .boxes {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .box {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 350px;
+    width: 250px;
+  }
+}
+
+@media (max-width: 1017px) {
+  .text_1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 70px;
+  }
+
+  .name,
+  .number,
+  .email {
+    width: 270px;
+  }
+
+  #button {
+    font-size: 16px;
+    width: 150px;
+  }
+}
+
+@media (max-width: 778px) {
+  .text h1 {
+    font-size: 35px
+  }
+
+  .text p {
+    font-size: 18px;
+  }
+
+
+  .text_3 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image_women {
+    margin-bottom: 70px;
+  }
+
+  .login {
+    margin: 0;
+  }
 }
