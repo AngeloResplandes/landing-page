@@ -37,7 +37,7 @@ header {
 }
 
 nav {
-  width: 400px;
+  width: 500px;
 }
 
 nav ul,
@@ -120,6 +120,7 @@ nav li a:hover {
   padding: 15px;
   text-transform: uppercase;
   text-decoration: none;
+  text-align: center;
   background-color: #f921ca;
   border-radius: 25px;
   width: 280px;
@@ -511,6 +512,11 @@ footer p {
 
 @media(max-width: 600px) {
 
+  .menu {
+    width: 100%;
+  }
+
+
   .logo a {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -546,17 +552,22 @@ footer p {
     width: 350px;
   }
 
+  .women_fitness {
+    width: 100%;
+    align-items: center;
+  }
+
   .topics {
     flex-direction: column;
     align-items: center;
   }
 
   .image_women img {
-    width: 340px;
+    width: 300px;
   }
 
   .image_women_fitness img {
-    width: 320px;
+    width: 300px;
   }
 
   .image h1 {
@@ -569,8 +580,13 @@ footer p {
 
   .box {
     width: 100%;
-    height: 230px;
+    height: 200px;
     margin: 0;
+    margin-bottom: 10px;
+  }
+
+  .box h1 {
+    font-size: 20px;
   }
 
   .box ul {
@@ -578,7 +594,7 @@ footer p {
     display: flex;
     justify-content: space-evenly;
     padding: 0;
-    padding-left: 10px;
+    padding-left: 20px;
   }
 
   footer p {
